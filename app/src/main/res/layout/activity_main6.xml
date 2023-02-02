@@ -38,7 +38,7 @@
         android:maxHeight="1dp"
         android:minHeight="1dp"
         android:progressDrawable="@color/white"
-
+        android:thumb="@drawable/thumb"
         android:max="100"
         app:layout_constraintStart_toStartOf="@+id/linearlayout" />
 

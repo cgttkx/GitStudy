@@ -43,8 +43,6 @@ public class MainActivity6 extends AppCompatActivity {
             public void onStopTrackingTouch(SeekBar seekBar) {
                 Toast.makeText(MainActivity6.this,"拖动",Toast.LENGTH_SHORT).show();
                 mediaPlayer.seekTo(seekBar.getProgress());
-                mediaPlayer.start();
-                updateSeekBar();
                 button1.setImageResource(R.mipmap.stop);
                 flag =true;
                 voiceView2.startRecording();
